@@ -10,12 +10,11 @@
     linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
   --content-width: clamp(320px, 100%, 700px);
 
-  --header-block-padding: clamp(122px, 9vw, 130px);
-  --header-inline-padding: clamp(14px, 4vw, 122px);
-  --logo-size: clamp(42px, calc(37.77px + 1.502vw), 65px);
+  --header-height: clamp(327px, calc(312.56px + 3.85vw), 368px);
 
+  --logo-size: clamp(49px, calc(43.37px + 1.5023vw), 65px);
   --title-size: clamp(14px, calc(10.83px + 0.845vw), 23px);
-  --title-margin-top: clamp(20px, 2vw, 40px);
+
   --border: 2px solid #000;
   --label-stroke-color: #fff;
   --animation-fill-color: #ff0000;

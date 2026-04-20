@@ -86,7 +86,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -156,7 +156,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -225,7 +225,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -294,7 +294,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -360,7 +360,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -427,7 +427,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -492,7 +492,7 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
@@ -557,31 +557,32 @@
                 />
               </svg>
             </button>
-            <button class="card__like-button" type="button">
+            <button class="button card__like-button" type="button">
               <span class="button__text">Like</span>
             </button>
           </div>
         </article>
       </section>
-    </main>
-    <footer class="footer content-section">
-      <button
-        class="save-button"
-        type="button"
-        onclick="window['save-dialog'].showModal()"
-        aria-controls="save-dialog"
-      >
-        <svg
-          class="save-button__icon"
-          width="21"
-          height="21"
-          aria-hidden="true"
+      <div class="save-section content-section">
+        <button
+          class="button save-button"
+          type="button"
+          onclick="window['save-dialog'].showModal()"
+          aria-controls="save-dialog"
         >
-          <use href="./images/floppy.svg#floppy-icon"></use>
-        </svg>
-        <span class="button__text">Сохранить на память</span>
-      </button>
-    </footer>
+          <svg
+            class="save-button__icon"
+            width="21"
+            height="21"
+            aria-hidden="true"
+          >
+            <use href="./images/floppy.svg#floppy-icon"></use>
+          </svg>
+          <span class="button__text">Сохранить на память</span>
+        </button>
+      </div>
+    </main>
+
     <dialog class="dialog" id="save-dialog">
       <div class="dialog__content">
         <svg class="dialog__icon" width="39" height="39" aria-hidden="true">
@@ -591,11 +592,11 @@
       </div>
 
       <button
-        class="dialog__button"
+        class="button dialog__button"
         type="button"
         onclick="window['save-dialog'].close()"
       >
-        <span class="button__text">ОК</span>
+        <span class="button__text">Ok</span>
       </button>
     </dialog>
     <script src="./scripts/like.js"></script>
