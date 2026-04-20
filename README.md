@@ -2,6 +2,10 @@
 
 Учебный проект Яндекс Практикума.
 
-## Ссылка на проект
+## Репозиторий
 
 https://github.com/formalnowa/zakrivayuschiy-teg-f.git
+
+## Сайт
+
+https://formalnowa.github.io/zakrivayuschiy-teg-f/
